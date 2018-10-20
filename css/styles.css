@@ -19,12 +19,14 @@
 .jumbotron {
     padding:70px 30px 70px 30px;
     margin:0px auto;
-    background: #9575CD ;
-    color:floralwhite;
+    color:floralwhite;  
 }
 
 address{
     font-size:80%;
     margin:0px;
     color:#0f0f0f;
+}
+.headerthing{
+    background-color: #563d7c;
 }

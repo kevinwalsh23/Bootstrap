@@ -1,0 +1,44 @@
+Bootstrap Grid System
+
+Outermost layer is container class<div class="container">
+next layer is a row <div class="row">
+divided into 12 equal sizes columns
+
+5 classes available to specify screen sizes
+-default - targets all screen sizes
+-sm md lg and xl
+ Use classes .col-*. .col-sm*, .col-md* etc
+ Specify how many columns each piece of content will occupy within a row, all add to 12 or a multiple of 12
+ col-sm-5 is for small to xl screen sizes, content will occupy 5 columns
+ div class="col-sm-7" covers remaining 7 columns
+
+ order-sm-first
+ order-sm-last
+First pushed to left, Last pushed to right
+order-sm-1-12
+
+Vertical Alignment
+div class "row align-items-center"
+Horizontal Alignment
+class = "row justify-content-center
+
+Column Offsets
+offset-sm-1 right shifts 1 column
+
+Nesting columns
+Can nest content within divs
+Nested divs
+
+Bootstrap is designed to be mobile first, meaning that the classes are designed such that we can begin by targeting mobile device screens first and then work upwards to larger screen sizes. The starting point for this is first through media queries.
+Support for Media queries <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+The viewport meta tag ensures that the screen width is set to the device width and the content is rendered with this width in mind.
+
+"col-12 col-sm-6" 
+if extra small, occupy 12 columns
+if small or bigger, occupy 6 rows
+"col-12 col-sm" 
+if extra small, occupy reamining columns
+"col-12 col-sm-6 col-md-3"
+if extra small, occupy 12 columns
+if small, occupy 6 rows
+if medium or bigger, occupy 3 rows

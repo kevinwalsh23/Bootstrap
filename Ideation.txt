@@ -1,0 +1,27 @@
+Ideation Report Template
+Recomp Health
+
+1. Introduction
+Recomp Health is a website that allows you to track your health data (workouts and meals). The goal is to provide a uniform place to understand your health trends.
+By being able to track your workouts and meals, a user will have the data they need to make smarter decisions.
+
+2. Expected List of Features
+A brief list of features that you expect your website to support.
+Brief justifications for including these features.
+
+The website will initially have a homepage that describes the goals and idea behind the product.
+Next will be a login section that will allow you to access your dashboard, that provides a summary of your past workouts and meals.
+There will also be a section where you can input your workouts and meals each day, and retroactively. 
+There will also be a section where you can set goals and track your progress against these goals.
+Lastly, there will be a section where you can track yourself against other people in your area.
+
+3. Market Survey
+MyFitnessPal has a similar idea, but mapmyfitness does not provide the goal setting features as well as a dashboard.
+Loseit has similar features, but not the same social aspect.
+Fitocracy is social but lacks the data driven features we will include.
+
+4. References
+http://www.markwk.com/how-to-track-workouts-fitness.html
+https://www.fitocracy.com/
+https://www.loseit.com/
+https://www.myfitnesspal.com/

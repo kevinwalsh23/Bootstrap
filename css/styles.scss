@@ -73,3 +73,17 @@ body{
     position: absolute;
     bottom: 0px;
 }
+
+.modal-style {
+    background:$background-dark;
+    color: $background-pale;
+
+    .modal-item {
+        color: $lt-gray;
+    }
+
+}
+
+.modal-bg {
+    background: $background-pale;
+}

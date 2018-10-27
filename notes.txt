@@ -42,3 +42,67 @@ if extra small, occupy reamining columns
 if extra small, occupy 12 columns
 if small, occupy 6 rows
 if medium or bigger, occupy 3 rows
+
+LESS AND SASS CSS PreProcessors
+Less: 
+Sass: Syntactically Awesome style sheets
+
+all complied into tradition css automatically
+
+Variables
+Nesting Selectors
+Mixins
+Functions, Expressions
+
+@lt-gray: #ddd;
+
+.navbar-inverse {
+    background:@lt-gray
+}
+
+.carousel {
+    background: @background-drk;
+
+}
+
+
+Web Development and Deployment
+Automate everything
+DRY do not repeat yourself
+CSS
+compile sass into css
+running autoprefier to add any vendor prefixes that are needed
+Minification: removing unnecessary characters (white spaces, newlines, comments) from source code without compomising functionality
+Concatenation- join all css files into one file
+
+Javascript
+JSHint: checking js code for errors and potential problem (static code analysis)
+Concatenation
+Uglification: minification and mangling (reduce local variables to single letters)
+Rechecking for errors
+
+Others
+Images: optimize files to reduce file sizesWatch: watch for changes in files and automatically re run tasks
+Server and Livereload
+Testing
+Building your site for Deployment
+
+NPM Scripts
+package.json
+Scripts property
+start: npm run lite
+test: echo
+lite: lite-Server
+scss: node sass -o css/ css/
+start: run by the npm start command
+npm run is of interest
+ie npm run scss
+
+Distribution Folder
+Contains all files and can send to webserver to Deployment
+RimRaf cleans out Folder
+Using Dist Folder
+npm -g install globally
+imagemin takes images and compresses them for ideal minification
+
+

@@ -5,7 +5,7 @@ module.exports = function (grunt) {
     require('time-grunt')(grunt);
 
     // Automatically load required Grunt tasks
-    require('jit-grunt')(grunt);
+    //require('jit-grunt')(grunt);
 
     require('jit-grunt')(grunt, {
         useminPrepare: 'grunt-usemin'
@@ -48,6 +48,7 @@ module.exports = function (grunt) {
                     //for html
                     expand: true,
                     dot: true,
+                    //current working directory
                     cwd: './',
                     src: ['*.html'],
                     dest: 'dist'
